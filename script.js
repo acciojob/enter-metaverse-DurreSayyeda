@@ -1,5 +1,6 @@
 //your JS code here. If required.
-function updateText(){
-	let paragraph = document.getElementById("status");
-	paragraph.innerHTML = "<h1>Entered Metaverse</h1>";
-}
+let para=document.getElementById('status'); 
+  enterBtn.addEventListener("click",function(){
+	  let heading=document.createElement("h1");
+	  heading.innerText="Entered Metaverse";
+	
